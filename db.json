@@ -1,14 +1,76 @@
 {
-  "eventos": [
+  "tarefas": [
     {
-      "id": 1,
-      "horario": "7:00",
-      "evento": "Lançar horas DBTime"
+		"id": 1,
+		"desc": "Lançar horas DBTime",
+		"status": false,
+		"prioridade": "Alta"
     },
     {
-      "id": 2,
-      "horario": "7:15",
-      "evento": "Revisar MRs de defeito"
-    }
+		"id": 2,
+		"desc": "Revisar MRs de defeito",
+		"status": false,
+		"prioridade": "Alta"
+    },
+	{	
+		"id": 3,
+		"desc": "Corrigir layout do mural de cards",
+		"status": true,
+		"prioridade": "Média"
+	},
+    { 
+		"id": 4,
+		"desc": "Corrigir contador",
+		"status": true,
+		"prioridade": "Alta"
+	},
+    { 
+		"id": 5,
+		"desc": "Concluir implementação do projeto",
+		"status": true,
+		"prioridade": "Alta"
+	},
+    { 
+		"id": 6,
+		"desc": "Gravar vídeo explicativo",
+		"status": false,
+		"prioridade": "Alta"
+	},
+    { 
+		"id": 7,
+		"desc": "Implementar gráficos",
+		"status": false,
+		"prioridade": "Alta"
+	},
+    { 
+		"id": 8,
+		"desc": "Ajustar layout dos gráficos",
+		"status": false,
+		"prioridade": "Média"
+	},
+    { 
+		"id": 9,
+		"desc": "Adicionar label de prioridade",
+		"status": false,
+		"prioridade": "Baixa"
+	},
+    { 
+		"id": 10,
+		"desc": "Adicionar campo prioridade no formulário",
+		"status": false,
+		"prioridade": "Alta"
+	},
+    { 
+		"id": 11,
+		"desc": "Ajustar container para gráficos",
+		"status": false,
+		"prioridade": "Baixa"
+	},
+	{ 
+		"id": 12,
+		"desc": "Rodar script electron macOS",
+		"status": false,
+		"prioridade": "Alta"
+	}
   ]
 }
